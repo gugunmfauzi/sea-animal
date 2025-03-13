@@ -69,7 +69,7 @@ if cek_library():
                   yaxis_title='Keyakinan')
                   
                   #Tampilkan hasil
-                  st.write(f"mineral terdeteksi:{objek_terdeteksi}")
+                  st.write(f"Sea Animal terdeteksi:{objek_terdeteksi}")
                   st.plotly_chart(grafik)
                 
               except Exception as e :
